@@ -1,8 +1,8 @@
 # Projekt_Weblap
-A négyek tanácsa
-Projekt menedzser: Farkas Tamás
-Dizájner: Szemán Csaba
-Programozó: Hatvani Tamás
+<h2>A négyek tanácsa</h2>
+<p>Projekt menedzser: Farkas Tamás</p>
+<p>Dizájner: Szemán Csaba</p>
+<p>Programozó: Hatvani Tamás</p>
 
-Téma: Werbshop (elektronikai)
-Eszközök: HTML 5, Bootstrap 5
+<p>Téma: Werbshop (elektronikai)</p>
+<p>Eszközök: HTML 5, Bootstrap 5</p>
