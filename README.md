@@ -1,5 +1,5 @@
 # Projekt_Weblap
-|\tA négyek tanácsa
+A négyek tanácsa
 Projekt menedzser: Farkas Tamás
 Dizájner: Szemán Csaba
 Programozó: Hatvani Tamás
