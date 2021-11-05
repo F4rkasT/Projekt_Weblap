@@ -26,3 +26,10 @@ body{
 img{
     height: 100px;
 }
+
+/*Menu elvalaszto vonal*/
+@media only screen {
+    .navbar .navbar-nav .nav-item:not(:last-child)  {
+      border-right: 2px solid #ffffff;
+    }
+}
