@@ -1,5 +1,28 @@
 .center {
-    margin-left: 6%;
-    margin-right: auto;
+    margin-left: 2%;
     padding: 10px;
+}
+
+body{
+    background-color: #55575A;
+    width: 100%;
+}
+
+.banner{
+    padding-top: 100px;
+    margin-top: 7%;
+    margin-left: 0.27%;
+    margin-right: 0.25%;
+    background-image: url("res/banner/download.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height:500px;
+}
+
+.navbar{
+    background-color: #090B0C;
+}
+
+img{
+    height: 100px;
 }
