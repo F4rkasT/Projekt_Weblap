@@ -16,10 +16,25 @@ body{
     background-image: url("res/banner/download.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height:500px;
+    min-height: 500px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
+/*@media screen and (max-height: 1200px){
+    .banner{
+        padding-top: 100px;
+        margin-top: 7%;
+        margin-left: 0.27%;
+        margin-right: 0.25%;
+        background-image: url("res/banner/download.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        min-height: 470px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}*/
 
 .navbar{
     background-color: #090B0C;
