@@ -17,6 +17,8 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
     min-height:500px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .navbar{
@@ -36,4 +38,18 @@ img{
     .navbar .navbar-nav .nav-item:not(:last-child)  {
       border-right: 2px solid #ffffff;
     }
+}
+
+.termekek{
+    background-color: #ffffff;
+}
+
+.product{
+    width: 500px;
+    height: 281px;
+}
+
+button{
+    height: 60px;
+    width: 170px;
 }
