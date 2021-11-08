@@ -10,13 +10,13 @@ body{
 
 .banner{
     padding-top: 100px;
-    margin-top: 7%;
+    margin-top: 4%;
     margin-left: 0.27%;
     margin-right: 0.25%;
     background-image: url("res/banner/download.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 500px;
+    min-height: 650px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
