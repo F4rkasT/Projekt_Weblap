@@ -4,5 +4,5 @@
 <p>Dizájner: Szemán Csaba</p>
 <p>Programozó: Hatvani Tamás</p>
 
-<p>Téma: Werbshop (elektronikai)</p>
-<p>Eszközök: HTML 5, Bootstrap 5</p>
+<p>Téma: Werbshop (Zowie monitor webshop)</p>
+<p>Eszközök: HTML 5, Bootstrap 5, Javascript</p>
