@@ -13,7 +13,7 @@ body{
     margin-top: 4%;
     margin-left: 0.27%;
     margin-right: 0.25%;
-    background-image: url("res/banner/download.jpg");
+    background-image: url("../res/banner/download.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 580px;
