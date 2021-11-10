@@ -9,6 +9,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
         <!--sajat include-->
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="modal.css">
+        <!--<script src="modal.js"></script>-->
         <title>Zowie Webshop</title>
     </head>
     <body>
@@ -52,13 +54,190 @@
             <td class="h2 ps-4"><div class="ps-5 ms-5"><div class="ps-1 ms-4">Zowie XL2731</div></div></td>
           </tr>
           <tr>
-            <td class="h2 ps-5"><div class="ps-4 ms-4"><div class="ps-5 ms-5"><a href="xl2411p.html"><button type="button" class="btn-dark rounded">More</button></a></div></div></td>
-            <td class="h2 ps-5"><div class="ps-4 ms-4"><div class="ps-2 ms-2"><a href="xl2411p.html"><button type="button" class="btn-dark rounded">More</button></a></div></div></td>
-            <td class="h2 ps-4"><div class="ps-5 ms-5"><div class="ps-3 ms-3"><a href="xl2411p.html"><button type="button" class="btn-dark rounded">More</button></a></div></div></td>
+            <td class="h2 ps-5"><div class="ps-4 ms-4"><div class="ps-5 ms-5"><button type="button" id="button1" class="btn-dark rounded">More</button></div></div></td>
+            <td class="h2 ps-5"><div class="ps-4 ms-4"><div class="ps-2 ms-2"><button type="button" id="button2" class="btn-dark rounded">More</button></div></div></td>
+            <td class="h2 ps-4"><div class="ps-5 ms-5"><div class="ps-3 ms-3"><button type="button" id="button3" class="btn-dark rounded">More</button></div></div></td>
           </tr>
         </table>
       </div>
       <!--modal start-->
+      <!--XL2740-->
+      <div id="XL2740_Modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Zowie XL2740</h2>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td><img class="modal_kep" src="res/monitor kategóriak/High end/xl2740 vegleges.png"></td>
+                <td>
+                  <table class="table">
+                    <tr>
+                      <td>Típus</td>
+                      <td>LED monitor</td>
+                    </tr>
+                    <tr>
+                      <td>Panel típusa</td>
+                      <td>TN</td>
+                    </tr>
+                    <tr>
+                      <td>Képátló</td>
+                      <td>27 inch</td>
+                    </tr>
+                    <tr>
+                      <td>Képarány</td>
+                      <td>16:9</td>
+                    </tr>
+                    <tr>
+                      <td>Felbontás</td>
+                      <td>1920 x 1080</td>
+                    </tr>
+                    <tr>
+                      <td>Válaszidő</td>
+                      <td>1 ms</td>
+                    </tr>
+                    <tr>
+                      <td>Fényerő</td>
+                      <td>320 cd/m2</td>
+                    </tr>
+                    <tr>
+                      <td>Betekintési szög</td>
+                      <td>170°</td>
+                    </tr>
+                    <tr>
+                      <td>Képfrissítési frekvencia</td>
+                      <td>240 Hz</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-dark rounded">Kosárba</button>
+          </div>
+        </div>
+      </div>
+      <!--XL2411P-->
+      <div id="XL2411P_Modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close2">&times;</span>
+            <h2>Zowie XL2411P</h2>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td><img class="modal_kep2" src="res/monitor kategóriak/Medium/budget vegleges.png"></td>
+                <td>
+                  <table class="table">
+                    <tr>
+                      <td>Típus</td>
+                      <td>Led monitor</td>
+                    </tr>
+                    <tr>
+                      <td>Panel típusa</td>
+                      <td>TN</td>
+                    </tr>
+                    <tr>
+                      <td>Képátló</td>
+                      <td>24 inch</td>
+                    </tr>
+                    <tr>
+                      <td>Képarány</td>
+                      <td>16:9</td>
+                    </tr>
+                    <tr>
+                      <td>Felbontás</td>
+                      <td>1920 x 1080</td>
+                    </tr>
+                    <tr>
+                      <td>Válaszidő</td>
+                      <td>1 ms</td>
+                    </tr>
+                    <tr>
+                      <td>Fényerő</td>
+                      <td>350 cd/m2</td>
+                    </tr>
+                    <tr>
+                      <td>Betekintési szög</td>
+                      <td>170 °</td>
+                    </tr>
+                    <tr>
+                      <td>Képfrissítési frekvencia</td>
+                      <td>144 Hz</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-dark rounded">Kosárba</button>
+          </div>
+        </div>
+      </div>
+      <!--XL2731 modal-->
+      <div id="XL2731_Modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close3">&times;</span>
+            <h2>Zowie XL2731</h2>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td><img class="modal_kep2" src="res/monitor kategóriak/Medium/medium vegleges.png"></td>
+                <td>
+                  <table class="table">
+                    <tr>
+                      <td>típus</td>
+                      <td>Led monitor</td>
+                    </tr>
+                    <tr>
+                      <td>Panel típusa</td>
+                      <td>TN</td>
+                    </tr>
+                    <tr>
+                      <td>Képátló</td>
+                      <td>27 inch</td>
+                    </tr>
+                    <tr>
+                      <td>Képarány</td>
+                      <td>16:9</td>
+                    </tr>
+                    <tr>
+                      <td>Felbontás</td>
+                      <td>1920 x 1080</td>
+                    </tr>
+                    <tr>
+                      <td>Válaszidő</td>
+                      <td>1 ms</td>
+                    </tr>
+                    <tr>
+                      <td>Fényerő</td>
+                      <td>320 cd/m2</td>
+                    </tr>
+                    <tr>
+                      <td>Betekintési szög</td>
+                      <td>178 °</td>
+                    </tr>
+                    <tr>
+                      <td>Képfrissítési frekvencia</td>
+                      <td>144 Hz</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-dark rounded">Kosárba</button>
+          </div>
+        </div>
+      </div>
       <!--modal end-->
       <!--termekek end-->
       <!--elerhetosegek/rolunk start-->
@@ -74,10 +253,10 @@
             <td colspan="4"></td> <!--Ures sor az elvalasztas miatt-->
           </tr>
           <tr>
-            <td><a href="https://www.facebook.com/" target="_blank"><img class="ps-5" src="res/social media logo/facebook.png"></a></td>
-            <td><a href="https://www.instagram.com/" target="_blank"><img class="ps-5" src="res/social media logo/instagram.png"></a></td>
-            <td><a href="https://twitter.com/" target="_blank"><img class="ps-4" src="res/social media logo/twitter.png"></a> </td>
-            <td><a href="https://www.youtube.com/" target="_blank"><img class="ps-3" src="res/social media logo/youtube.png"></a> </td>
+            <td><a href="https://hu-hu.facebook.com/ZOWIEbyBenQ/" target="_blank"><img class="ps-5" src="res/social media logo/facebook.png"></a></td>
+            <td><a href="https://www.instagram.com/zowiebybenqusa/" target="_blank"><img class="ps-5" src="res/social media logo/instagram.png"></a></td>
+            <td><a href="https://twitter.com/zowiebybenq" target="_blank"><img class="ps-4" src="res/social media logo/twitter.png"></a> </td>
+            <td><a href="https://www.youtube.com/c/ZOWIEeSports" target="_blank"><img class="ps-3" src="res/social media logo/youtube.png"></a> </td>
           </tr>
           <tr>
             <td colspan="4"></td> <!--Ures sor az elvalasztas miatt-->
@@ -90,6 +269,61 @@
           </tr>
         </table>
       </div> 
-      <!--elerhetosegek/rolunk end-->          
+      <!--elerhetosegek/rolunk end-->    
+      <!--modal script-->
+      <script>
+        // Get the modal
+        var modal = document.getElementById("XL2740_Modal");
+        var modal2 = document.getElementById("XL2411P_Modal");
+        var modal3 = document.getElementById("XL2731_Modal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("button1"); //2740
+        var btn2 = document.getElementById("button2"); //2411
+        var btn3 = document.getElementById("button3") //2731
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
+        var span3 = document.getElementsByClassName("close3")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        btn2.onclick = function() {
+          modal2.style.display = "block";
+        }
+        btn3.onclick = function() {
+          modal3.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        span2.onclick = function() {
+          modal2.style.display = "none";
+        }
+        span3.onclick = function() {
+          modal3.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        window.onclick = function(event) {
+          if (event.target == modal2) {
+            modal2.style.display = "none";
+          }
+        }
+        window.onclick = function(event) {
+          if (event.target == modal3) {
+            modal3.style.display = "none";
+          }
+        }
+        </script>      
     </body>
 </html>
