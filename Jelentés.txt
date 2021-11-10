@@ -1,0 +1,42 @@
+Farkas Tamás (Projekt menedzser), Hatvani Tamás (Programozó), Szemán Csaba (Designer)
+Kiindulási pont volt a webshop.
+Abból jött a monitor webshop.
+Márkát választottunk így jött a Zowie a képbe.
+Feladatok:
+1. Alap HTML weboldal létrehozása.
+2. Megterveztük a designt.
+3. Ideiglenes háttérszín és a bootstrap modulok hozzáadása.
+4. Létrehoztuk az alap navigációs menüt.
+5. Beállítottuk a háttérszínét sötétre, bal oldalra hozzáadtuk a márka logót, jobb oldalra hozzáadtuk a menü pontokat.
+6. Megkerestük a megfelelő képeket és eltöröltük a háttereiket.
+7. A navigációs menü alá beraktuk a bannert.
+8. A banner alá hozzáadtuk a legnébszerűbb termékek részt.
+9. Hozzáadtuk az első terméket annak a nevét és egy hozzá tartozó gombot.
+10. Hozzáadtuk a második terméket annak a nevét és egy hozzá tartozó gombot.
+11. Hozzáadtuk a harmadik terméket annak a nevét és egy hozzá tartozó gombot.
+12. Megcsináltuk hogy a gombra kattintva kis ablakba jelenjenek meg a termékadatok.
+13. A kis ablakba megcsináltuk az adatok táblázatot és bal olalra beraktuk a képet.
+14. Hozzáadtuk az elérhetőségek részt.
+15. Beillesztettük a legnébszerűbb közösségi oldalak képeit és azokra kattintva továbbít a Zowie hivatalos oldalaira.
+
+Befejezetlen vagy hozzá nem adott feladatok:
+1. A termékek oldalon nem adtuk hozzá a termékeket.
+2. Carousel image slider. (Készen van de nincs hozzá adva)
+3. A termékek saját oldalai.
+4. Különböző Felbontási méretekre változzon az oldal.
+
+Plussz feature-ök amiket nem adtunk hozzá:
+1. Az elérhetőségek részbe a márka ügyfélszolgálati címe.
+2. Monitorok árai.
+3. Pénznemváltó.
+4. Darabszámláló.
+
+
+Projekt menedzsment:
+A Trellót használtuk a feladatok kiosztására. Az aktív feladtok be lettek jelölve másik színnel, hogy ki min dolgozik éppen.
+Rendszerezni tudtuk a munkát és a kész feladtokat átrakuk egy másik listába, hogy lássuk mely feladatok vannak készen.
+
+
+Használtuk a GitHubot a feladatok feltöltésére és átnézésére.
+
+Elkészítési idő 1 hét.
