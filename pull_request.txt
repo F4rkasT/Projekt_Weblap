@@ -1,5 +1,0 @@
-git status (git add fajlnev.kiterjesztes (ha van uj fajl))
-git checkout -b feladat_neve (ez a branch neve is)
-git commit -a -m "Feladata neve"
-git push -link feladat_neve
-git checkout main
