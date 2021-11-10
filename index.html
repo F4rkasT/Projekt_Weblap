@@ -130,7 +130,7 @@
           <div class="modal-body">
             <table class="table table-borderless">
               <tr>
-                <td><img class="modal_kep" src="res/monitor kategóriak/Medium/budget vegleges.png"></td>
+                <td><img class="modal_kep2" src="res/monitor kategóriak/Medium/budget vegleges.png"></td>
                 <td>
                   <table class="table">
                     <tr>
@@ -179,6 +179,65 @@
           </div>
         </div>
       </div>
+      <!--XL2731 modal-->
+      <div id="XL2731_Modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close3">&times;</span>
+            <h2>Zowie XL2731</h2>
+          </div>
+          <div class="modal-body">
+            <table class="table table-borderless">
+              <tr>
+                <td><img class="modal_kep2" src="res/monitor kategóriak/Medium/medium vegleges.png"></td>
+                <td>
+                  <table class="table">
+                    <tr>
+                      <td>típus</td>
+                      <td>Led monitor</td>
+                    </tr>
+                    <tr>
+                      <td>Panel típusa</td>
+                      <td>TN</td>
+                    </tr>
+                    <tr>
+                      <td>Képátló</td>
+                      <td>27 inch</td>
+                    </tr>
+                    <tr>
+                      <td>Képarány</td>
+                      <td>16:9</td>
+                    </tr>
+                    <tr>
+                      <td>Felbontás</td>
+                      <td>1920 x 1080</td>
+                    </tr>
+                    <tr>
+                      <td>Válaszidő</td>
+                      <td>1 ms</td>
+                    </tr>
+                    <tr>
+                      <td>Fényerő</td>
+                      <td>320 cd/m2</td>
+                    </tr>
+                    <tr>
+                      <td>Betekintési szög</td>
+                      <td>178 °</td>
+                    </tr>
+                    <tr>
+                      <td>Képfrissítési frekvencia</td>
+                      <td>144 Hz</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-dark rounded">Kosárba</button>
+          </div>
+        </div>
+      </div>
       <!--modal end-->
       <!--termekek end-->
       <!--elerhetosegek/rolunk start-->
@@ -194,10 +253,10 @@
             <td colspan="4"></td> <!--Ures sor az elvalasztas miatt-->
           </tr>
           <tr>
-            <td><a href="https://www.facebook.com/" target="_blank"><img class="ps-5" src="res/social media logo/facebook.png"></a></td>
-            <td><a href="https://www.instagram.com/" target="_blank"><img class="ps-5" src="res/social media logo/instagram.png"></a></td>
-            <td><a href="https://twitter.com/" target="_blank"><img class="ps-4" src="res/social media logo/twitter.png"></a> </td>
-            <td><a href="https://www.youtube.com/" target="_blank"><img class="ps-3" src="res/social media logo/youtube.png"></a> </td>
+            <td><a href="https://hu-hu.facebook.com/ZOWIEbyBenQ/" target="_blank"><img class="ps-5" src="res/social media logo/facebook.png"></a></td>
+            <td><a href="https://www.instagram.com/zowiebybenqusa/" target="_blank"><img class="ps-5" src="res/social media logo/instagram.png"></a></td>
+            <td><a href="https://twitter.com/zowiebybenq" target="_blank"><img class="ps-4" src="res/social media logo/twitter.png"></a> </td>
+            <td><a href="https://www.youtube.com/c/ZOWIEeSports" target="_blank"><img class="ps-3" src="res/social media logo/youtube.png"></a> </td>
           </tr>
           <tr>
             <td colspan="4"></td> <!--Ures sor az elvalasztas miatt-->
@@ -221,7 +280,7 @@
         // Get the button that opens the modal
         var btn = document.getElementById("button1"); //2740
         var btn2 = document.getElementById("button2"); //2411
-        var button2 = document.getElementById("button3") //2731
+        var btn3 = document.getElementById("button3") //2731
         
         // Get the <span> element that closes the modal
         var span = document.getElementsByClassName("close")[0];
@@ -235,9 +294,9 @@
         btn2.onclick = function() {
           modal2.style.display = "block";
         }
-        /*btn3.onclick = function() {
+        btn3.onclick = function() {
           modal3.style.display = "block";
-        }*/
+        }
         
         // When the user clicks on <span> (x), close the modal
         span.onclick = function() {
@@ -246,9 +305,9 @@
         span2.onclick = function() {
           modal2.style.display = "none";
         }
-        /*span3.onclick = function() {
+        span3.onclick = function() {
           modal3.style.display = "none";
-        }*/
+        }
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
           if (event.target == modal) {

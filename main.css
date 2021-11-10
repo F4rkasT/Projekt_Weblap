@@ -16,7 +16,7 @@ body{
     background-image: url("res/banner/download.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    min-height: 650px;
+    min-height: 580px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
